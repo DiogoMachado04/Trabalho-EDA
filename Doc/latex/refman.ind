@@ -1,0 +1,303 @@
+\begin{theindex}
+
+  \item {AdicionaAdjacencia}
+    \subitem {Utilidades.c}, \hyperpage{50}
+    \subitem {Utilidades.h}, \hyperpage{54}, \hyperpage{58}
+  \item {AdicionaVertice}
+    \subitem {Utilidades.c}, \hyperpage{50}
+    \subitem {Utilidades.h}, \hyperpage{54}, \hyperpage{58}
+  \item {Adjacencia}, \hyperpage{5}
+    \subitem {codVert}, \hyperpage{5}
+    \subitem {Grafos.h}, \hyperpage{36, 37}
+    \subitem {next}, \hyperpage{5}
+    \subitem {peso}, \hyperpage{5}
+    \subitem {visitado}, \hyperpage{5}
+  \item {adjacencias}
+    \subitem {Vertice}, \hyperpage{7}
+
+  \indexspace
+
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Constantes.h}, 
+		\hyperpage{9}, \hyperpage{11}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/FuncoesProcura.c}, 
+		\hyperpage{13}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/FuncoesProcura.h}, 
+		\hyperpage{15}, \hyperpage{17}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/GereGrafos.c}, 
+		\hyperpage{20}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/GereGrafos.h}, 
+		\hyperpage{25}, \hyperpage{30}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Grafos.h}, 
+		\hyperpage{35, 36}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Stack.c}, 
+		\hyperpage{38}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Stack.h}, 
+		\hyperpage{41}, \hyperpage{45}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Utilidades.c}, 
+		\hyperpage{49}
+  \item {C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Utilidades.h}, 
+		\hyperpage{53}, \hyperpage{57}
+  \item {CalculoSomaEntreDoisVertices}
+    \subitem {FuncoesProcura.c}, \hyperpage{13}
+    \subitem {FuncoesProcura.h}, \hyperpage{18}
+  \item {CalculoSomaEntreDoisVerticesz}
+    \subitem {FuncoesProcura.h}, \hyperpage{16}
+  \item {cod}
+    \subitem {Vertice}, \hyperpage{7}
+  \item {codVert}
+    \subitem {Adjacencia}, \hyperpage{5}
+  \item {Constantes.h}, \hyperpage{11}
+    \subitem {ERRO\_AO\_ABRIR\_FICHEIRO}, \hyperpage{10}, 
+		\hyperpage{12}
+    \subitem {EXISTE\_ADJACENCIA}, \hyperpage{10}, \hyperpage{12}
+    \subitem {GRAFO\_NAO\_EXISTE}, \hyperpage{10}, \hyperpage{12}
+    \subitem {LISTA\_NAO\_EXISTE}, \hyperpage{10}, \hyperpage{12}
+    \subitem {MAX}, \hyperpage{10}, \hyperpage{12}
+    \subitem {MAX\_CARATERES}, \hyperpage{10}, \hyperpage{12}
+    \subitem {NAO\_EXISTE\_ADJACENCIA}, \hyperpage{10}, \hyperpage{12}
+    \subitem {PARAMETROS\_INVALIDOS}, \hyperpage{10}, \hyperpage{12}
+    \subitem {SUCESSO}, \hyperpage{10}, \hyperpage{12}
+    \subitem {VERTICE\_JA\_EXISTE}, \hyperpage{10}, \hyperpage{12}
+    \subitem {VERTICE\_NAO\_EXISTE}, \hyperpage{10}, \hyperpage{12}
+  \item {CriaAdjacencia}
+    \subitem {GereGrafos.c}, \hyperpage{21}
+    \subitem {GereGrafos.h}, \hyperpage{26}, \hyperpage{31}
+  \item {CriaGrafo}
+    \subitem {GereGrafos.c}, \hyperpage{21}
+    \subitem {GereGrafos.h}, \hyperpage{26}, \hyperpage{32}
+  \item {CriaStackValor}
+    \subitem {Stack.c}, \hyperpage{39}
+    \subitem {Stack.h}, \hyperpage{42}, \hyperpage{46}
+  \item {CriaVertice}
+    \subitem {GereGrafos.c}, \hyperpage{21}
+    \subitem {GereGrafos.h}, \hyperpage{26}, \hyperpage{32}
+
+  \indexspace
+
+  \item {DepthFirstSearchRec}
+    \subitem {FuncoesProcura.c}, \hyperpage{14}
+    \subitem {FuncoesProcura.h}, \hyperpage{16}, \hyperpage{18}
+  \item {DepthFirstTraversal}
+    \subitem {FuncoesProcura.c}, \hyperpage{14}
+    \subitem {FuncoesProcura.h}, \hyperpage{16}, \hyperpage{19}
+
+  \indexspace
+
+  \item {ERRO\_AO\_ABRIR\_FICHEIRO}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+  \item {EXISTE\_ADJACENCIA}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+
+  \indexspace
+
+  \item {FuncoesProcura.c}
+    \subitem {CalculoSomaEntreDoisVertices}, \hyperpage{13}
+    \subitem {DepthFirstSearchRec}, \hyperpage{14}
+    \subitem {DepthFirstTraversal}, \hyperpage{14}
+    \subitem {ProcessaVertice}, \hyperpage{14}
+  \item {FuncoesProcura.h}, \hyperpage{17}
+    \subitem {CalculoSomaEntreDoisVertices}, \hyperpage{18}
+    \subitem {CalculoSomaEntreDoisVerticesz}, \hyperpage{16}
+    \subitem {DepthFirstSearchRec}, \hyperpage{16}, \hyperpage{18}
+    \subitem {DepthFirstTraversal}, \hyperpage{16}, \hyperpage{19}
+    \subitem {ProcessaVertice}, \hyperpage{17}, \hyperpage{19}
+
+  \indexspace
+
+  \item {GereGrafos.c}
+    \subitem {CriaAdjacencia}, \hyperpage{21}
+    \subitem {CriaGrafo}, \hyperpage{21}
+    \subitem {CriaVertice}, \hyperpage{21}
+    \subitem {InsereAdjacencia}, \hyperpage{22}
+    \subitem {InsereAdjacenciaVertice}, \hyperpage{22}
+    \subitem {InsereVertice}, \hyperpage{22}
+    \subitem {LeFicheiroGrafo}, \hyperpage{23}
+    \subitem {LimpaGrafo}, \hyperpage{23}
+    \subitem {MostraGrafo}, \hyperpage{23}
+  \item {GereGrafos.h}, \hyperpage{30}
+    \subitem {CriaAdjacencia}, \hyperpage{26}, \hyperpage{31}
+    \subitem {CriaGrafo}, \hyperpage{26}, \hyperpage{32}
+    \subitem {CriaVertice}, \hyperpage{26}, \hyperpage{32}
+    \subitem {InsereAdjacencia}, \hyperpage{27}, \hyperpage{32}
+    \subitem {InsereAdjacenciaVertice}, \hyperpage{27}, \hyperpage{33}
+    \subitem {InsereVertice}, \hyperpage{28}, \hyperpage{33}
+    \subitem {LeFicheiroGrafo}, \hyperpage{28}, \hyperpage{33}
+    \subitem {LimpaGrafo}, \hyperpage{28}, \hyperpage{34}
+    \subitem {MostraGrafo}, \hyperpage{30}, \hyperpage{34}
+  \item {Grafo}, \hyperpage{6}
+    \subitem {Grafos.h}, \hyperpage{36, 37}
+    \subitem {inicio}, \hyperpage{6}
+    \subitem {numVert}, \hyperpage{6}
+  \item {GRAFO\_NAO\_EXISTE}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+  \item {Grafos.h}, \hyperpage{37}
+    \subitem {Adjacencia}, \hyperpage{36, 37}
+    \subitem {Grafo}, \hyperpage{36, 37}
+    \subitem {Vertice}, \hyperpage{36, 37}
+
+  \indexspace
+
+  \item {id}
+    \subitem {Stack}, \hyperpage{6}
+  \item {inicio}
+    \subitem {Grafo}, \hyperpage{6}
+  \item {InsereAdjacencia}
+    \subitem {GereGrafos.c}, \hyperpage{22}
+    \subitem {GereGrafos.h}, \hyperpage{27}, \hyperpage{32}
+  \item {InsereAdjacenciaVertice}
+    \subitem {GereGrafos.c}, \hyperpage{22}
+    \subitem {GereGrafos.h}, \hyperpage{27}, \hyperpage{33}
+  \item {InsereNaStack}
+    \subitem {Stack.c}, \hyperpage{39}
+    \subitem {Stack.h}, \hyperpage{42}, \hyperpage{47}
+  \item {InsereVertice}
+    \subitem {GereGrafos.c}, \hyperpage{22}
+    \subitem {GereGrafos.h}, \hyperpage{28}, \hyperpage{33}
+  \item {IsStackEmpty}
+    \subitem {Stack.c}, \hyperpage{40}
+    \subitem {Stack.h}, \hyperpage{44}, \hyperpage{47}
+
+  \indexspace
+
+  \item {LeFicheiroGrafo}
+    \subitem {GereGrafos.c}, \hyperpage{23}
+    \subitem {GereGrafos.h}, \hyperpage{28}, \hyperpage{33}
+  \item {LimpaGrafo}
+    \subitem {GereGrafos.c}, \hyperpage{23}
+    \subitem {GereGrafos.h}, \hyperpage{28}, \hyperpage{34}
+  \item {LimpaListaAdjacencias}
+    \subitem {Utilidades.c}, \hyperpage{50}
+    \subitem {Utilidades.h}, \hyperpage{54}, \hyperpage{59}
+  \item {LISTA\_NAO\_EXISTE}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+
+  \indexspace
+
+  \item {main}
+    \subitem {Main.c}, \hyperpage{62}
+  \item {Main.c}, \hyperpage{61}
+    \subitem {main}, \hyperpage{62}
+  \item {MAX}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+  \item {MAX\_CARATERES}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+  \item {MostraGrafo}
+    \subitem {GereGrafos.c}, \hyperpage{23}
+    \subitem {GereGrafos.h}, \hyperpage{30}, \hyperpage{34}
+
+  \indexspace
+
+  \item {NAO\_EXISTE\_ADJACENCIA}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+  \item {next}
+    \subitem {Adjacencia}, \hyperpage{5}
+    \subitem {Stack}, \hyperpage{6}
+    \subitem {Vertice}, \hyperpage{7}
+  \item {numAdj}
+    \subitem {Vertice}, \hyperpage{7}
+  \item {numVert}
+    \subitem {Grafo}, \hyperpage{6}
+
+  \indexspace
+
+  \item {OutputStack}
+    \subitem {Stack.c}, \hyperpage{40}
+    \subitem {Stack.h}, \hyperpage{44}, \hyperpage{47}
+
+  \indexspace
+
+  \item {PARAMETROS\_INVALIDOS}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+  \item {peso}
+    \subitem {Adjacencia}, \hyperpage{5}
+  \item {ProcessaVertice}
+    \subitem {FuncoesProcura.c}, \hyperpage{14}
+    \subitem {FuncoesProcura.h}, \hyperpage{17}, \hyperpage{19}
+  \item {ProcuraVerticeCod}
+    \subitem {Utilidades.c}, \hyperpage{51}
+    \subitem {Utilidades.h}, \hyperpage{55}, \hyperpage{59}
+
+  \indexspace
+
+  \item {RemoveAdjacencia}
+    \subitem {Utilidades.c}, \hyperpage{51}
+    \subitem {Utilidades.h}, \hyperpage{55}, \hyperpage{59}
+  \item {RemoveValorStack}
+    \subitem {Stack.c}, \hyperpage{40}
+    \subitem {Stack.h}, \hyperpage{44}, \hyperpage{48}
+  \item {RemoveVertice}
+    \subitem {Utilidades.c}, \hyperpage{51}
+    \subitem {Utilidades.h}, \hyperpage{55}, \hyperpage{60}
+
+  \indexspace
+
+  \item {Stack}, \hyperpage{6}
+    \subitem {id}, \hyperpage{6}
+    \subitem {next}, \hyperpage{6}
+    \subitem {Stack.h}, \hyperpage{42}, \hyperpage{46}
+  \item {Stack.c}
+    \subitem {CriaStackValor}, \hyperpage{39}
+    \subitem {InsereNaStack}, \hyperpage{39}
+    \subitem {IsStackEmpty}, \hyperpage{40}
+    \subitem {OutputStack}, \hyperpage{40}
+    \subitem {RemoveValorStack}, \hyperpage{40}
+    \subitem {StackPeek}, \hyperpage{40}
+  \item {Stack.h}, \hyperpage{45}
+    \subitem {CriaStackValor}, \hyperpage{42}, \hyperpage{46}
+    \subitem {InsereNaStack}, \hyperpage{42}, \hyperpage{47}
+    \subitem {IsStackEmpty}, \hyperpage{44}, \hyperpage{47}
+    \subitem {OutputStack}, \hyperpage{44}, \hyperpage{47}
+    \subitem {RemoveValorStack}, \hyperpage{44}, \hyperpage{48}
+    \subitem {Stack}, \hyperpage{42}, \hyperpage{46}
+    \subitem {StackPeek}, \hyperpage{45}, \hyperpage{48}
+  \item {StackPeek}
+    \subitem {Stack.c}, \hyperpage{40}
+    \subitem {Stack.h}, \hyperpage{45}, \hyperpage{48}
+  \item {SUCESSO}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Utilidades.c}
+    \subitem {AdicionaAdjacencia}, \hyperpage{50}
+    \subitem {AdicionaVertice}, \hyperpage{50}
+    \subitem {LimpaListaAdjacencias}, \hyperpage{50}
+    \subitem {ProcuraVerticeCod}, \hyperpage{51}
+    \subitem {RemoveAdjacencia}, \hyperpage{51}
+    \subitem {RemoveVertice}, \hyperpage{51}
+    \subitem {VerificaExisteAdjacencia}, \hyperpage{52}
+    \subitem {VerificaExisteVertice}, \hyperpage{52}
+  \item {Utilidades.h}, \hyperpage{57}
+    \subitem {AdicionaAdjacencia}, \hyperpage{54}, \hyperpage{58}
+    \subitem {AdicionaVertice}, \hyperpage{54}, \hyperpage{58}
+    \subitem {LimpaListaAdjacencias}, \hyperpage{54}, \hyperpage{59}
+    \subitem {ProcuraVerticeCod}, \hyperpage{55}, \hyperpage{59}
+    \subitem {RemoveAdjacencia}, \hyperpage{55}, \hyperpage{59}
+    \subitem {RemoveVertice}, \hyperpage{55}, \hyperpage{60}
+    \subitem {VerificaExisteAdjacencia}, \hyperpage{56}, \hyperpage{60}
+    \subitem {VerificaExisteVertice}, \hyperpage{56}, \hyperpage{61}
+
+  \indexspace
+
+  \item {VerificaExisteAdjacencia}
+    \subitem {Utilidades.c}, \hyperpage{52}
+    \subitem {Utilidades.h}, \hyperpage{56}, \hyperpage{60}
+  \item {VerificaExisteVertice}
+    \subitem {Utilidades.c}, \hyperpage{52}
+    \subitem {Utilidades.h}, \hyperpage{56}, \hyperpage{61}
+  \item {Vertice}, \hyperpage{7}
+    \subitem {adjacencias}, \hyperpage{7}
+    \subitem {cod}, \hyperpage{7}
+    \subitem {Grafos.h}, \hyperpage{36, 37}
+    \subitem {next}, \hyperpage{7}
+    \subitem {numAdj}, \hyperpage{7}
+    \subitem {visitado}, \hyperpage{7}
+  \item {VERTICE\_JA\_EXISTE}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+  \item {VERTICE\_NAO\_EXISTE}
+    \subitem {Constantes.h}, \hyperpage{10}, \hyperpage{12}
+  \item {visitado}
+    \subitem {Adjacencia}, \hyperpage{5}
+    \subitem {Vertice}, \hyperpage{7}
+
+\end{theindex}

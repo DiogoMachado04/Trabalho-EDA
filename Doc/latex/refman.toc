@@ -1,0 +1,205 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Adjacencia Struct Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Member Data Documentation}{5}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}codVert}{5}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}next}{5}{subsubsection.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}peso}{5}{subsubsection.3.1.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.1.4}visitado}{5}{subsubsection.3.1.1.4}%
+\contentsline {section}{\numberline {3.2}Grafo Struct Reference}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Member Data Documentation}{6}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}inicio}{6}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}numVert}{6}{subsubsection.3.2.1.2}%
+\contentsline {section}{\numberline {3.3}Stack Struct Reference}{6}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Member Data Documentation}{6}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}id}{6}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}next}{7}{subsubsection.3.3.1.2}%
+\contentsline {section}{\numberline {3.4}Vertice Struct Reference}{7}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Member Data Documentation}{7}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}adjacencias}{7}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}cod}{7}{subsubsection.3.4.1.2}%
+\contentsline {subsubsection}{\numberline {3.4.1.3}next}{7}{subsubsection.3.4.1.3}%
+\contentsline {subsubsection}{\numberline {3.4.1.4}numAdj}{7}{subsubsection.3.4.1.4}%
+\contentsline {subsubsection}{\numberline {3.4.1.5}visitado}{7}{subsubsection.3.4.1.5}%
+\contentsline {chapter}{\numberline {4}File Documentation}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constantes.h File Reference}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{9}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Macro Definition Documentation}{10}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}ERRO\_AO\_ABRIR\_FICHEIRO}{10}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}EXISTE\_ADJACENCIA}{10}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}GRAFO\_NAO\_EXISTE}{10}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}LISTA\_NAO\_EXISTE}{10}{subsubsection.4.1.2.4}%
+\contentsline {subsubsection}{\numberline {4.1.2.5}MAX}{10}{subsubsection.4.1.2.5}%
+\contentsline {subsubsection}{\numberline {4.1.2.6}MAX\_CARATERES}{10}{subsubsection.4.1.2.6}%
+\contentsline {subsubsection}{\numberline {4.1.2.7}NAO\_EXISTE\_ADJACENCIA}{10}{subsubsection.4.1.2.7}%
+\contentsline {subsubsection}{\numberline {4.1.2.8}PARAMETROS\_INVALIDOS}{10}{subsubsection.4.1.2.8}%
+\contentsline {subsubsection}{\numberline {4.1.2.9}SUCESSO}{10}{subsubsection.4.1.2.9}%
+\contentsline {subsubsection}{\numberline {4.1.2.10}VERTICE\_JA\_EXISTE}{10}{subsubsection.4.1.2.10}%
+\contentsline {subsubsection}{\numberline {4.1.2.11}VERTICE\_NAO\_EXISTE}{11}{subsubsection.4.1.2.11}%
+\contentsline {section}{\numberline {4.2}Constantes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Constantes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{11}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{11}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Macro Definition Documentation}{12}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}ERRO\_AO\_ABRIR\_FICHEIRO}{12}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}EXISTE\_ADJACENCIA}{12}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}GRAFO\_NAO\_EXISTE}{12}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}LISTA\_NAO\_EXISTE}{12}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}MAX}{12}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}MAX\_CARATERES}{12}{subsubsection.4.3.2.6}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}NAO\_EXISTE\_ADJACENCIA}{12}{subsubsection.4.3.2.7}%
+\contentsline {subsubsection}{\numberline {4.3.2.8}PARAMETROS\_INVALIDOS}{12}{subsubsection.4.3.2.8}%
+\contentsline {subsubsection}{\numberline {4.3.2.9}SUCESSO}{12}{subsubsection.4.3.2.9}%
+\contentsline {subsubsection}{\numberline {4.3.2.10}VERTICE\_JA\_EXISTE}{12}{subsubsection.4.3.2.10}%
+\contentsline {subsubsection}{\numberline {4.3.2.11}VERTICE\_NAO\_EXISTE}{13}{subsubsection.4.3.2.11}%
+\contentsline {section}{\numberline {4.4}Constantes.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.5}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Procura.c File Reference}{13}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Function Documentation}{13}{subsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}CalculoSomaEntreDoisVertices()}{13}{subsubsection.4.5.1.1}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}DepthFirstSearchRec()}{14}{subsubsection.4.5.1.2}%
+\contentsline {subsubsection}{\numberline {4.5.1.3}DepthFirstTraversal()}{14}{subsubsection.4.5.1.3}%
+\contentsline {subsubsection}{\numberline {4.5.1.4}ProcessaVertice()}{15}{subsubsection.4.5.1.4}%
+\contentsline {section}{\numberline {4.6}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Procura.h File Reference}{15}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{15}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Function Documentation}{16}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}CalculoSomaEntreDoisVerticesz()}{16}{subsubsection.4.6.2.1}%
+\contentsline {subsubsection}{\numberline {4.6.2.2}DepthFirstSearchRec()}{16}{subsubsection.4.6.2.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.3}DepthFirstTraversal()}{16}{subsubsection.4.6.2.3}%
+\contentsline {subsubsection}{\numberline {4.6.2.4}ProcessaVertice()}{17}{subsubsection.4.6.2.4}%
+\contentsline {section}{\numberline {4.7}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Procura.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{17}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Procura.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{17}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{18}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Function Documentation}{18}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}CalculoSomaEntreDoisVertices()}{18}{subsubsection.4.8.2.1}%
+\contentsline {subsubsection}{\numberline {4.8.2.2}DepthFirstSearchRec()}{18}{subsubsection.4.8.2.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.3}DepthFirstTraversal()}{19}{subsubsection.4.8.2.3}%
+\contentsline {subsubsection}{\numberline {4.8.2.4}ProcessaVertice()}{19}{subsubsection.4.8.2.4}%
+\contentsline {section}{\numberline {4.9}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Procura.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{19}{section.4.9}%
+\contentsline {section}{\numberline {4.10}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Grafos.c File Reference}{20}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{20}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Function Documentation}{21}{subsection.4.10.2}%
+\contentsline {subsubsection}{\numberline {4.10.2.1}CriaAdjacencia()}{21}{subsubsection.4.10.2.1}%
+\contentsline {subsubsection}{\numberline {4.10.2.2}CriaGrafo()}{21}{subsubsection.4.10.2.2}%
+\contentsline {subsubsection}{\numberline {4.10.2.3}CriaVertice()}{21}{subsubsection.4.10.2.3}%
+\contentsline {subsubsection}{\numberline {4.10.2.4}InsereAdjacencia()}{22}{subsubsection.4.10.2.4}%
+\contentsline {subsubsection}{\numberline {4.10.2.5}InsereAdjacenciaVertice()}{22}{subsubsection.4.10.2.5}%
+\contentsline {subsubsection}{\numberline {4.10.2.6}InsereVertice()}{22}{subsubsection.4.10.2.6}%
+\contentsline {subsubsection}{\numberline {4.10.2.7}LeFicheiroGrafo()}{23}{subsubsection.4.10.2.7}%
+\contentsline {subsubsection}{\numberline {4.10.2.8}LimpaGrafo()}{23}{subsubsection.4.10.2.8}%
+\contentsline {subsubsection}{\numberline {4.10.2.9}MostraGrafo()}{23}{subsubsection.4.10.2.9}%
+\contentsline {section}{\numberline {4.11}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Grafos.h File Reference}{25}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{25}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Function Documentation}{26}{subsection.4.11.2}%
+\contentsline {subsubsection}{\numberline {4.11.2.1}CriaAdjacencia()}{26}{subsubsection.4.11.2.1}%
+\contentsline {subsubsection}{\numberline {4.11.2.2}CriaGrafo()}{26}{subsubsection.4.11.2.2}%
+\contentsline {subsubsection}{\numberline {4.11.2.3}CriaVertice()}{27}{subsubsection.4.11.2.3}%
+\contentsline {subsubsection}{\numberline {4.11.2.4}InsereAdjacencia()}{27}{subsubsection.4.11.2.4}%
+\contentsline {subsubsection}{\numberline {4.11.2.5}InsereAdjacenciaVertice()}{27}{subsubsection.4.11.2.5}%
+\contentsline {subsubsection}{\numberline {4.11.2.6}InsereVertice()}{28}{subsubsection.4.11.2.6}%
+\contentsline {subsubsection}{\numberline {4.11.2.7}LeFicheiroGrafo()}{28}{subsubsection.4.11.2.7}%
+\contentsline {subsubsection}{\numberline {4.11.2.8}LimpaGrafo()}{28}{subsubsection.4.11.2.8}%
+\contentsline {subsubsection}{\numberline {4.11.2.9}MostraGrafo()}{30}{subsubsection.4.11.2.9}%
+\contentsline {section}{\numberline {4.12}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Grafos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{30}{section.4.12}%
+\contentsline {section}{\numberline {4.13}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Grafos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{30}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{31}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Function Documentation}{31}{subsection.4.13.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.1}CriaAdjacencia()}{31}{subsubsection.4.13.2.1}%
+\contentsline {subsubsection}{\numberline {4.13.2.2}CriaGrafo()}{32}{subsubsection.4.13.2.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.3}CriaVertice()}{32}{subsubsection.4.13.2.3}%
+\contentsline {subsubsection}{\numberline {4.13.2.4}InsereAdjacencia()}{32}{subsubsection.4.13.2.4}%
+\contentsline {subsubsection}{\numberline {4.13.2.5}InsereAdjacenciaVertice()}{33}{subsubsection.4.13.2.5}%
+\contentsline {subsubsection}{\numberline {4.13.2.6}InsereVertice()}{33}{subsubsection.4.13.2.6}%
+\contentsline {subsubsection}{\numberline {4.13.2.7}LeFicheiroGrafo()}{34}{subsubsection.4.13.2.7}%
+\contentsline {subsubsection}{\numberline {4.13.2.8}LimpaGrafo()}{34}{subsubsection.4.13.2.8}%
+\contentsline {subsubsection}{\numberline {4.13.2.9}MostraGrafo()}{34}{subsubsection.4.13.2.9}%
+\contentsline {section}{\numberline {4.14}Gere\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Grafos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{35}{section.4.14}%
+\contentsline {section}{\numberline {4.15}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Grafos.h File Reference}{35}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Detailed Description}{36}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Typedef Documentation}{36}{subsection.4.15.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.1}Adjacencia}{36}{subsubsection.4.15.2.1}%
+\contentsline {subsubsection}{\numberline {4.15.2.2}Grafo}{36}{subsubsection.4.15.2.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.3}Vertice}{36}{subsubsection.4.15.2.3}%
+\contentsline {section}{\numberline {4.16}Grafos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{36}{section.4.16}%
+\contentsline {section}{\numberline {4.17}Grafos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{37}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Detailed Description}{37}{subsection.4.17.1}%
+\contentsline {subsection}{\numberline {4.17.2}Typedef Documentation}{37}{subsection.4.17.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.1}Adjacencia}{37}{subsubsection.4.17.2.1}%
+\contentsline {subsubsection}{\numberline {4.17.2.2}Grafo}{37}{subsubsection.4.17.2.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.3}Vertice}{38}{subsubsection.4.17.2.3}%
+\contentsline {section}{\numberline {4.18}Grafos.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{38}{section.4.18}%
+\contentsline {section}{\numberline {4.19}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stack.c File Reference}{38}{section.4.19}%
+\contentsline {subsection}{\numberline {4.19.1}Detailed Description}{39}{subsection.4.19.1}%
+\contentsline {subsection}{\numberline {4.19.2}Function Documentation}{39}{subsection.4.19.2}%
+\contentsline {subsubsection}{\numberline {4.19.2.1}CriaStackValor()}{39}{subsubsection.4.19.2.1}%
+\contentsline {subsubsection}{\numberline {4.19.2.2}InsereNaStack()}{39}{subsubsection.4.19.2.2}%
+\contentsline {subsubsection}{\numberline {4.19.2.3}IsStackEmpty()}{40}{subsubsection.4.19.2.3}%
+\contentsline {subsubsection}{\numberline {4.19.2.4}OutputStack()}{40}{subsubsection.4.19.2.4}%
+\contentsline {subsubsection}{\numberline {4.19.2.5}RemoveValorStack()}{40}{subsubsection.4.19.2.5}%
+\contentsline {subsubsection}{\numberline {4.19.2.6}StackPeek()}{41}{subsubsection.4.19.2.6}%
+\contentsline {section}{\numberline {4.20}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stack.h File Reference}{41}{section.4.20}%
+\contentsline {subsection}{\numberline {4.20.1}Detailed Description}{42}{subsection.4.20.1}%
+\contentsline {subsection}{\numberline {4.20.2}Typedef Documentation}{42}{subsection.4.20.2}%
+\contentsline {subsubsection}{\numberline {4.20.2.1}Stack}{42}{subsubsection.4.20.2.1}%
+\contentsline {subsection}{\numberline {4.20.3}Function Documentation}{42}{subsection.4.20.3}%
+\contentsline {subsubsection}{\numberline {4.20.3.1}CriaStackValor()}{42}{subsubsection.4.20.3.1}%
+\contentsline {subsubsection}{\numberline {4.20.3.2}InsereNaStack()}{42}{subsubsection.4.20.3.2}%
+\contentsline {subsubsection}{\numberline {4.20.3.3}IsStackEmpty()}{44}{subsubsection.4.20.3.3}%
+\contentsline {subsubsection}{\numberline {4.20.3.4}OutputStack()}{44}{subsubsection.4.20.3.4}%
+\contentsline {subsubsection}{\numberline {4.20.3.5}RemoveValorStack()}{44}{subsubsection.4.20.3.5}%
+\contentsline {subsubsection}{\numberline {4.20.3.6}StackPeek()}{45}{subsubsection.4.20.3.6}%
+\contentsline {section}{\numberline {4.21}Stack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{45}{section.4.21}%
+\contentsline {section}{\numberline {4.22}Stack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{45}{section.4.22}%
+\contentsline {subsection}{\numberline {4.22.1}Detailed Description}{46}{subsection.4.22.1}%
+\contentsline {subsection}{\numberline {4.22.2}Typedef Documentation}{46}{subsection.4.22.2}%
+\contentsline {subsubsection}{\numberline {4.22.2.1}Stack}{46}{subsubsection.4.22.2.1}%
+\contentsline {subsection}{\numberline {4.22.3}Function Documentation}{46}{subsection.4.22.3}%
+\contentsline {subsubsection}{\numberline {4.22.3.1}CriaStackValor()}{46}{subsubsection.4.22.3.1}%
+\contentsline {subsubsection}{\numberline {4.22.3.2}InsereNaStack()}{47}{subsubsection.4.22.3.2}%
+\contentsline {subsubsection}{\numberline {4.22.3.3}IsStackEmpty()}{47}{subsubsection.4.22.3.3}%
+\contentsline {subsubsection}{\numberline {4.22.3.4}OutputStack()}{47}{subsubsection.4.22.3.4}%
+\contentsline {subsubsection}{\numberline {4.22.3.5}RemoveValorStack()}{48}{subsubsection.4.22.3.5}%
+\contentsline {subsubsection}{\numberline {4.22.3.6}StackPeek()}{48}{subsubsection.4.22.3.6}%
+\contentsline {section}{\numberline {4.23}Stack.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{48}{section.4.23}%
+\contentsline {section}{\numberline {4.24}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utilidades.c File Reference}{49}{section.4.24}%
+\contentsline {subsection}{\numberline {4.24.1}Detailed Description}{49}{subsection.4.24.1}%
+\contentsline {subsection}{\numberline {4.24.2}Function Documentation}{50}{subsection.4.24.2}%
+\contentsline {subsubsection}{\numberline {4.24.2.1}AdicionaAdjacencia()}{50}{subsubsection.4.24.2.1}%
+\contentsline {subsubsection}{\numberline {4.24.2.2}AdicionaVertice()}{50}{subsubsection.4.24.2.2}%
+\contentsline {subsubsection}{\numberline {4.24.2.3}LimpaListaAdjacencias()}{50}{subsubsection.4.24.2.3}%
+\contentsline {subsubsection}{\numberline {4.24.2.4}ProcuraVerticeCod()}{51}{subsubsection.4.24.2.4}%
+\contentsline {subsubsection}{\numberline {4.24.2.5}RemoveAdjacencia()}{51}{subsubsection.4.24.2.5}%
+\contentsline {subsubsection}{\numberline {4.24.2.6}RemoveVertice()}{52}{subsubsection.4.24.2.6}%
+\contentsline {subsubsection}{\numberline {4.24.2.7}VerificaExisteAdjacencia()}{52}{subsubsection.4.24.2.7}%
+\contentsline {subsubsection}{\numberline {4.24.2.8}VerificaExisteVertice()}{52}{subsubsection.4.24.2.8}%
+\contentsline {section}{\numberline {4.25}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Aulas/1º ano/2º semestre/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Estruturas de Dados Avançadas/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Trabalho EDA Fase 2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funcoes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LIB/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utilidades.h File Reference}{53}{section.4.25}%
+\contentsline {subsection}{\numberline {4.25.1}Detailed Description}{53}{subsection.4.25.1}%
+\contentsline {subsection}{\numberline {4.25.2}Function Documentation}{54}{subsection.4.25.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.1}AdicionaAdjacencia()}{54}{subsubsection.4.25.2.1}%
+\contentsline {subsubsection}{\numberline {4.25.2.2}AdicionaVertice()}{54}{subsubsection.4.25.2.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.3}LimpaListaAdjacencias()}{54}{subsubsection.4.25.2.3}%
+\contentsline {subsubsection}{\numberline {4.25.2.4}ProcuraVerticeCod()}{55}{subsubsection.4.25.2.4}%
+\contentsline {subsubsection}{\numberline {4.25.2.5}RemoveAdjacencia()}{55}{subsubsection.4.25.2.5}%
+\contentsline {subsubsection}{\numberline {4.25.2.6}RemoveVertice()}{56}{subsubsection.4.25.2.6}%
+\contentsline {subsubsection}{\numberline {4.25.2.7}VerificaExisteAdjacencia()}{56}{subsubsection.4.25.2.7}%
+\contentsline {subsubsection}{\numberline {4.25.2.8}VerificaExisteVertice()}{56}{subsubsection.4.25.2.8}%
+\contentsline {section}{\numberline {4.26}Utilidades.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{57}{section.4.26}%
+\contentsline {section}{\numberline {4.27}Utilidades.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{57}{section.4.27}%
+\contentsline {subsection}{\numberline {4.27.1}Detailed Description}{58}{subsection.4.27.1}%
+\contentsline {subsection}{\numberline {4.27.2}Function Documentation}{58}{subsection.4.27.2}%
+\contentsline {subsubsection}{\numberline {4.27.2.1}AdicionaAdjacencia()}{58}{subsubsection.4.27.2.1}%
+\contentsline {subsubsection}{\numberline {4.27.2.2}AdicionaVertice()}{58}{subsubsection.4.27.2.2}%
+\contentsline {subsubsection}{\numberline {4.27.2.3}LimpaListaAdjacencias()}{59}{subsubsection.4.27.2.3}%
+\contentsline {subsubsection}{\numberline {4.27.2.4}ProcuraVerticeCod()}{59}{subsubsection.4.27.2.4}%
+\contentsline {subsubsection}{\numberline {4.27.2.5}RemoveAdjacencia()}{59}{subsubsection.4.27.2.5}%
+\contentsline {subsubsection}{\numberline {4.27.2.6}RemoveVertice()}{60}{subsubsection.4.27.2.6}%
+\contentsline {subsubsection}{\numberline {4.27.2.7}VerificaExisteAdjacencia()}{60}{subsubsection.4.27.2.7}%
+\contentsline {subsubsection}{\numberline {4.27.2.8}VerificaExisteVertice()}{61}{subsubsection.4.27.2.8}%
+\contentsline {section}{\numberline {4.28}Utilidades.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{61}{section.4.28}%
+\contentsline {section}{\numberline {4.29}Main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}c File Reference}{61}{section.4.29}%
+\contentsline {subsection}{\numberline {4.29.1}Detailed Description}{62}{subsection.4.29.1}%
+\contentsline {subsection}{\numberline {4.29.2}Function Documentation}{62}{subsection.4.29.2}%
+\contentsline {subsubsection}{\numberline {4.29.2.1}main()}{62}{subsubsection.4.29.2.1}%
+\contentsline {chapter}{Index}{63}{section*.28}%

@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['leficheirografo_0',['leficheirografo',['../_gere_grafos_8c.html#a3705bdbefcf4bd465a2ce1f6a0cb821e',1,'LeFicheiroGrafo(char *filename):&#160;GereGrafos.c'],['../_funcoes_l_i_b_2_gere_grafos_8h.html#a3705bdbefcf4bd465a2ce1f6a0cb821e',1,'LeFicheiroGrafo(char *filename):&#160;GereGrafos.c'],['../_trabalho_01_e_d_a_01_fase_012_2_gere_grafos_8h.html#a3705bdbefcf4bd465a2ce1f6a0cb821e',1,'LeFicheiroGrafo(char *filename):&#160;GereGrafos.c']]],
+  ['limpagrafo_1',['limpagrafo',['../_gere_grafos_8c.html#a6ad4d68bf90fab0670d868aa81fbe39f',1,'LimpaGrafo(Grafo *grafo):&#160;GereGrafos.c'],['../_funcoes_l_i_b_2_gere_grafos_8h.html#a6ad4d68bf90fab0670d868aa81fbe39f',1,'LimpaGrafo(Grafo *grafo):&#160;GereGrafos.c'],['../_trabalho_01_e_d_a_01_fase_012_2_gere_grafos_8h.html#a6ad4d68bf90fab0670d868aa81fbe39f',1,'LimpaGrafo(Grafo *grafo):&#160;GereGrafos.c']]],
+  ['limpalistaadjacencias_2',['limpalistaadjacencias',['../_utilidades_8c.html#a27f0af04a70f691f6fa4d5dbbde66298',1,'LimpaListaAdjacencias(Vertice *vert):&#160;Utilidades.c'],['../_funcoes_l_i_b_2_utilidades_8h.html#a27f0af04a70f691f6fa4d5dbbde66298',1,'LimpaListaAdjacencias(Vertice *vert):&#160;Utilidades.c'],['../_trabalho_01_e_d_a_01_fase_012_2_utilidades_8h.html#a27f0af04a70f691f6fa4d5dbbde66298',1,'LimpaListaAdjacencias(Vertice *vert):&#160;Utilidades.c']]]
+];

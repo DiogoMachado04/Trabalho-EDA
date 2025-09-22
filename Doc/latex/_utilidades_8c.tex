@@ -1,0 +1,229 @@
+\doxysection{C\+:/\+Aulas/1º ano/2º semestre/\+Estruturas de Dados Avançadas/\+Trabalho EDA Fase 2/\+Src/\+Funcoes\+LIB/\+Utilidades.c File Reference}
+\hypertarget{_utilidades_8c}{}\label{_utilidades_8c}\index{C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Utilidades.c@{C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Utilidades.c}}
+
+
+Ficheiro .c com algumas funcoes para manipular o grafo.  
+
+
+{\ttfamily \#include "{}Utilidades.\+h"{}}\newline
+{\ttfamily \#include "{}Grafos.\+h"{}}\newline
+{\ttfamily \#include "{}Constantes.\+h"{}}\newline
+{\ttfamily \#include "{}Gere\+Grafos.\+h"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_utilidades_8c_a96ff954f93f0a3dd3e95c1d177e87d01}{Verifica\+Existe\+Vertice}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}lista\+Vert, int cod\+Vert)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se o vertice com um determinado codigo ja existe ou nao. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_utilidades_8c_abf69de44cde98b9dc44f8c61e7b40b4f}{Adiciona\+Vertice}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, int cod\+Vert)
+\begin{DoxyCompactList}\small\item\em Funcao que adiciona vertice ao grafo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_utilidades_8c_a10ed1856df558b2f16ea28836cabe951}{Remove\+Vertice}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, int cod\+Vert)
+\begin{DoxyCompactList}\small\item\em Funcao que remove vertice do grafo. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_utilidades_8c_a27f0af04a70f691f6fa4d5dbbde66298}{Limpa\+Lista\+Adjacencias}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}vert)
+\begin{DoxyCompactList}\small\item\em Funcao que limpa lista de adjacencias de um determinado vertice. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_utilidades_8c_abc49105e7b52a23f5c360592a4433bb7}{Verifica\+Existe\+Adjacencia}} (\mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*}lista\+Adj, int cod\+Dest)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se existe uma determinada adjacencia na lista de adjacencias. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_utilidades_8c_a6187eef123d7e911ab904b8be1ca77f5}{Remove\+Adjacencia}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, int cod\+Vert, int cod\+Adj)
+\begin{DoxyCompactList}\small\item\em Funcao que remove uma adjacencia de um determinado vertice. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_utilidades_8c_ac91c1392ece98f113419d160bd652c47}{Adiciona\+Adjacencia}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, int cod\+Vert, int peso, int cod\+Dest)
+\begin{DoxyCompactList}\small\item\em Funcao que adiciona uma determinada adjacencia a vertice destino. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_utilidades_8c_a292b2740d42271afab581984e8c994ac}{Procura\+Vertice\+Cod}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}aux\+Vert, int cod)
+\begin{DoxyCompactList}\small\item\em Funcao que procura vertice com um determinado codigo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro .c com algumas funcoes para manipular o grafo. 
+
+\texorpdfstring{$\sim$}{\string~} \begin{DoxyAuthor}{Author}
+Diogo Machado 26042 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+21.\+05.\+2024 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+� Diogo Machado, 2023. All right reserved. 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_utilidades_8c_ac91c1392ece98f113419d160bd652c47}\label{_utilidades_8c_ac91c1392ece98f113419d160bd652c47} 
+\index{Utilidades.c@{Utilidades.c}!AdicionaAdjacencia@{AdicionaAdjacencia}}
+\index{AdicionaAdjacencia@{AdicionaAdjacencia}!Utilidades.c@{Utilidades.c}}
+\doxysubsubsection{\texorpdfstring{AdicionaAdjacencia()}{AdicionaAdjacencia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Adiciona\+Adjacencia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{int}]{cod\+Vert,  }\item[{int}]{peso,  }\item[{int}]{cod\+Dest }\end{DoxyParamCaption})}
+
+
+
+Funcao que adiciona uma determinada adjacencia a vertice destino. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & -\/ grafo guardado em memoria \\
+\hline
+{\em cod\+Vert} & -\/ codigo do vertice de partida \\
+\hline
+{\em peso} & -\/ peso da adjacencia \\
+\hline
+{\em cod\+Dest} & -\/ codigo do vertice destino \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & grafo guardado em memoria \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_utilidades_8c_abf69de44cde98b9dc44f8c61e7b40b4f}\label{_utilidades_8c_abf69de44cde98b9dc44f8c61e7b40b4f} 
+\index{Utilidades.c@{Utilidades.c}!AdicionaVertice@{AdicionaVertice}}
+\index{AdicionaVertice@{AdicionaVertice}!Utilidades.c@{Utilidades.c}}
+\doxysubsubsection{\texorpdfstring{AdicionaVertice()}{AdicionaVertice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Adiciona\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{int}]{cod\+Vert }\end{DoxyParamCaption})}
+
+
+
+Funcao que adiciona vertice ao grafo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & -\/ grafo guardado em memoria \\
+\hline
+{\em cod\+Vert} & -\/ codigo do vertice que pretendemos adicionar \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & grafo guardado em memoria \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_utilidades_8c_a27f0af04a70f691f6fa4d5dbbde66298}\label{_utilidades_8c_a27f0af04a70f691f6fa4d5dbbde66298} 
+\index{Utilidades.c@{Utilidades.c}!LimpaListaAdjacencias@{LimpaListaAdjacencias}}
+\index{LimpaListaAdjacencias@{LimpaListaAdjacencias}!Utilidades.c@{Utilidades.c}}
+\doxysubsubsection{\texorpdfstring{LimpaListaAdjacencias()}{LimpaListaAdjacencias()}}
+{\footnotesize\ttfamily int Limpa\+Lista\+Adjacencias (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{vert }\end{DoxyParamCaption})}
+
+
+
+Funcao que limpa lista de adjacencias de um determinado vertice. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vert} & -\/ vertice que se pretende eliminar a lista de adjacencias \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & resultado da funcao \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_utilidades_8c_a292b2740d42271afab581984e8c994ac}\label{_utilidades_8c_a292b2740d42271afab581984e8c994ac} 
+\index{Utilidades.c@{Utilidades.c}!ProcuraVerticeCod@{ProcuraVerticeCod}}
+\index{ProcuraVerticeCod@{ProcuraVerticeCod}!Utilidades.c@{Utilidades.c}}
+\doxysubsubsection{\texorpdfstring{ProcuraVerticeCod()}{ProcuraVerticeCod()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Procura\+Vertice\+Cod (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{aux\+Vert,  }\item[{int}]{cod }\end{DoxyParamCaption})}
+
+
+
+Funcao que procura vertice com um determinado codigo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em aux\+Vert} & -\/ lista dos vertices \\
+\hline
+{\em cod} & -\/ codigo que se pretende encontrar \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & vertice com o codigo pretendido \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_utilidades_8c_a6187eef123d7e911ab904b8be1ca77f5}\label{_utilidades_8c_a6187eef123d7e911ab904b8be1ca77f5} 
+\index{Utilidades.c@{Utilidades.c}!RemoveAdjacencia@{RemoveAdjacencia}}
+\index{RemoveAdjacencia@{RemoveAdjacencia}!Utilidades.c@{Utilidades.c}}
+\doxysubsubsection{\texorpdfstring{RemoveAdjacencia()}{RemoveAdjacencia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Remove\+Adjacencia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{int}]{cod\+Vert,  }\item[{int}]{cod\+Adj }\end{DoxyParamCaption})}
+
+
+
+Funcao que remove uma adjacencia de um determinado vertice. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & -\/ grafo guardado em memoria \\
+\hline
+{\em cod\+Vert} & -\/ codigo do vertice que se pretende remover a adjacencia \\
+\hline
+{\em cod\+Adj} & -\/ codigo da adjacencia que se pretende remover \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & grafo guardado em memoria \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_utilidades_8c_a10ed1856df558b2f16ea28836cabe951}\label{_utilidades_8c_a10ed1856df558b2f16ea28836cabe951} 
+\index{Utilidades.c@{Utilidades.c}!RemoveVertice@{RemoveVertice}}
+\index{RemoveVertice@{RemoveVertice}!Utilidades.c@{Utilidades.c}}
+\doxysubsubsection{\texorpdfstring{RemoveVertice()}{RemoveVertice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Remove\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{int}]{cod\+Vert }\end{DoxyParamCaption})}
+
+
+
+Funcao que remove vertice do grafo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & -\/ grafo guardado em memoria \\
+\hline
+{\em cod\+Vert} & -\/ codigo do vertice que se pretende adicionar \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & grafo guardado em memoria \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_utilidades_8c_abc49105e7b52a23f5c360592a4433bb7}\label{_utilidades_8c_abc49105e7b52a23f5c360592a4433bb7} 
+\index{Utilidades.c@{Utilidades.c}!VerificaExisteAdjacencia@{VerificaExisteAdjacencia}}
+\index{VerificaExisteAdjacencia@{VerificaExisteAdjacencia}!Utilidades.c@{Utilidades.c}}
+\doxysubsubsection{\texorpdfstring{VerificaExisteAdjacencia()}{VerificaExisteAdjacencia()}}
+{\footnotesize\ttfamily int Verifica\+Existe\+Adjacencia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*}}]{lista\+Adj,  }\item[{int}]{cod\+Dest }\end{DoxyParamCaption})}
+
+
+
+Funcao que verifica se existe uma determinada adjacencia na lista de adjacencias. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Adj} & -\/ lista de adjacencias \\
+\hline
+{\em cod\+Dest} & -\/ codigo da adjacencia que se pretende eliminar \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & resultado da funcao \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_utilidades_8c_a96ff954f93f0a3dd3e95c1d177e87d01}\label{_utilidades_8c_a96ff954f93f0a3dd3e95c1d177e87d01} 
+\index{Utilidades.c@{Utilidades.c}!VerificaExisteVertice@{VerificaExisteVertice}}
+\index{VerificaExisteVertice@{VerificaExisteVertice}!Utilidades.c@{Utilidades.c}}
+\doxysubsubsection{\texorpdfstring{VerificaExisteVertice()}{VerificaExisteVertice()}}
+{\footnotesize\ttfamily int Verifica\+Existe\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{lista\+Vert,  }\item[{int}]{cod\+Vert }\end{DoxyParamCaption})}
+
+
+
+Funcao que verifica se o vertice com um determinado codigo ja existe ou nao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Vert} & -\/ lista de vertices do grafo \\
+\hline
+{\em cod\+Vert} & -\/ codigo do vertice que pretendemos adicionar \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & se ja existe o vertice ou nao \\
+\hline
+\end{DoxyRetVals}

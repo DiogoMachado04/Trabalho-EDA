@@ -1,0 +1,176 @@
+\doxysection{Stack.\+h File Reference}
+\hypertarget{_trabalho_01_e_d_a_01_fase_012_2_stack_8h}{}\label{_trabalho_01_e_d_a_01_fase_012_2_stack_8h}\index{Stack.h@{Stack.h}}
+
+
+Ficheiro .h com as funcoes da stack utilizada nos algoritmos de procura.  
+
+
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_stack}{Stack}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{struct_stack}{Stack}} \mbox{\hyperlink{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_acccdaeb94a63f3757825012007215c0d}{Stack}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a0633a197df5185211208b1cb181dafcf}{Cria\+Stack\+Valor}} (int cod)
+\begin{DoxyCompactList}\small\item\em Funcao que cria um valor da stack em memoria. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_af49d11ca9c93011357e7c223be99d85b}{Insere\+Na\+Stack}} (\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}inicio, \mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}novo)
+\begin{DoxyCompactList}\small\item\em Funcao que insere novo valor no fim da stack. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a27b91a6f0b9784192f721ebd37b87c12}{Remove\+Valor\+Stack}} (\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}inicio)
+\begin{DoxyCompactList}\small\item\em Funcao que Remove o valor de topo da stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_afa9dc13c54c3d9be16d8480e5a8ca13d}{Output\+Stack}} (\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}stack)
+\begin{DoxyCompactList}\small\item\em Funcao que da output aos valores guardados numa stack. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a8a75b5cacba06b8e39f68ce3a03a425a}{Stack\+Peek}} (\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}stack)
+\begin{DoxyCompactList}\small\item\em Funcao que procura pelo codigo do valor de topo da stack. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a71ad96ca963f74b37e60283e99d38518}{Is\+Stack\+Empty}} (\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}stack)
+\begin{DoxyCompactList}\small\item\em Funcao que verifica se a stack esta vazia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro .h com as funcoes da stack utilizada nos algoritmos de procura. 
+
+\texorpdfstring{$\sim$}{\string~} \begin{DoxyAuthor}{Author}
+Diogo Machado 26042 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+22.\+05.\+2024 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+© Diogo Machado, 2023. All right reserved. 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Typedef Documentation}
+\Hypertarget{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_acccdaeb94a63f3757825012007215c0d}\label{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_acccdaeb94a63f3757825012007215c0d} 
+\index{Stack.h@{Stack.h}!Stack@{Stack}}
+\index{Stack@{Stack}!Stack.h@{Stack.h}}
+\doxysubsubsection{\texorpdfstring{Stack}{Stack}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct_stack}{Stack}} \mbox{\hyperlink{struct_stack}{Stack}}}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a0633a197df5185211208b1cb181dafcf}\label{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a0633a197df5185211208b1cb181dafcf} 
+\index{Stack.h@{Stack.h}!CriaStackValor@{CriaStackValor}}
+\index{CriaStackValor@{CriaStackValor}!Stack.h@{Stack.h}}
+\doxysubsubsection{\texorpdfstring{CriaStackValor()}{CriaStackValor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*} Cria\+Stack\+Valor (\begin{DoxyParamCaption}\item[{int}]{cod }\end{DoxyParamCaption})}
+
+
+
+Funcao que cria um valor da stack em memoria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cod} & -\/ codigo do valor da stack \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & valor da stack criado em memoria \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_af49d11ca9c93011357e7c223be99d85b}\label{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_af49d11ca9c93011357e7c223be99d85b} 
+\index{Stack.h@{Stack.h}!InsereNaStack@{InsereNaStack}}
+\index{InsereNaStack@{InsereNaStack}!Stack.h@{Stack.h}}
+\doxysubsubsection{\texorpdfstring{InsereNaStack()}{InsereNaStack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*} Insere\+Na\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}}]{novo }\end{DoxyParamCaption})}
+
+
+
+Funcao que insere novo valor no fim da stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & -\/ stack guardada em memoria \\
+\hline
+{\em novo} & -\/ novo valor da stack que se pretende inserir na stack guardada em memoria \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & stack guarada em memoria \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a71ad96ca963f74b37e60283e99d38518}\label{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a71ad96ca963f74b37e60283e99d38518} 
+\index{Stack.h@{Stack.h}!IsStackEmpty@{IsStackEmpty}}
+\index{IsStackEmpty@{IsStackEmpty}!Stack.h@{Stack.h}}
+\doxysubsubsection{\texorpdfstring{IsStackEmpty()}{IsStackEmpty()}}
+{\footnotesize\ttfamily int Is\+Stack\+Empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}}]{stack }\end{DoxyParamCaption})}
+
+
+
+Funcao que verifica se a stack esta vazia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stack} & -\/ stack guardada em memoria \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & 1 se estiver vazia e 0 se nao estiver \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_afa9dc13c54c3d9be16d8480e5a8ca13d}\label{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_afa9dc13c54c3d9be16d8480e5a8ca13d} 
+\index{Stack.h@{Stack.h}!OutputStack@{OutputStack}}
+\index{OutputStack@{OutputStack}!Stack.h@{Stack.h}}
+\doxysubsubsection{\texorpdfstring{OutputStack()}{OutputStack()}}
+{\footnotesize\ttfamily void Output\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}}]{stack }\end{DoxyParamCaption})}
+
+
+
+Funcao que da output aos valores guardados numa stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stack} & -\/ stack guardada em memoria \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a27b91a6f0b9784192f721ebd37b87c12}\label{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a27b91a6f0b9784192f721ebd37b87c12} 
+\index{Stack.h@{Stack.h}!RemoveValorStack@{RemoveValorStack}}
+\index{RemoveValorStack@{RemoveValorStack}!Stack.h@{Stack.h}}
+\doxysubsubsection{\texorpdfstring{RemoveValorStack()}{RemoveValorStack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*} Remove\+Valor\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}}]{inicio }\end{DoxyParamCaption})}
+
+
+
+Funcao que Remove o valor de topo da stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & -\/ stack guardada em memoria \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & stack guardada em memoria depois de remover o valor de topo \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a8a75b5cacba06b8e39f68ce3a03a425a}\label{_trabalho_01_e_d_a_01_fase_012_2_stack_8h_a8a75b5cacba06b8e39f68ce3a03a425a} 
+\index{Stack.h@{Stack.h}!StackPeek@{StackPeek}}
+\index{StackPeek@{StackPeek}!Stack.h@{Stack.h}}
+\doxysubsubsection{\texorpdfstring{StackPeek()}{StackPeek()}}
+{\footnotesize\ttfamily int Stack\+Peek (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*}}]{stack }\end{DoxyParamCaption})}
+
+
+
+Funcao que procura pelo codigo do valor de topo da stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stack} & -\/ stack guardada em memoria \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & valor inteiro do codigo do valor de topo da stack \\
+\hline
+\end{DoxyRetVals}

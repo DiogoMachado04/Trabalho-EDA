@@ -1,0 +1,122 @@
+\doxysection{C\+:/\+Aulas/1º ano/2º semestre/\+Estruturas de Dados Avançadas/\+Trabalho EDA Fase 2/\+Src/\+Funcoes\+LIB/\+Funcoes\+Procura.h File Reference}
+\hypertarget{_funcoes_l_i_b_2_funcoes_procura_8h}{}\label{_funcoes_l_i_b_2_funcoes_procura_8h}\index{C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/FuncoesProcura.h@{C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/FuncoesProcura.h}}
+
+
+Ficheiro .h com as funcoes de procura do trabalho.  
+
+
+{\ttfamily \#include "{}Grafos.\+h"{}}\newline
+{\ttfamily \#include "{}Stack.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_funcoes_l_i_b_2_funcoes_procura_8h_afe4ea5d8fa47c8708109bb5323ffe9f7}{Depth\+First\+Traversal}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, int cod\+Ini)
+\begin{DoxyCompactList}\small\item\em Funcao Depth First Traversal que passa por todos os vertices do grafo em profundidade. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_funcoes_l_i_b_2_funcoes_procura_8h_ac4ca5f41c31d017399ff08d5c37f6901}{Processa\+Vertice}} (int id)
+\begin{DoxyCompactList}\small\item\em Funcao que imprime no ecra o vertice da Depth First search recursiva. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{_funcoes_l_i_b_2_funcoes_procura_8h_a2534e6eebc89e4f621c7f80963405ba9}{Depth\+First\+Search\+Rec}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}aux\+Vert, int origem, int dest)
+\begin{DoxyCompactList}\small\item\em Funcao Depth First Traversal que passa por todos os vertices do grafo em profundidade. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_funcoes_l_i_b_2_funcoes_procura_8h_a1f845659a09cd72e5ef9bae625bcf88c}{Calculo\+Soma\+Entre\+Dois\+Verticesz}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, int cod\+Ini, int cod\+Dest)
+\begin{DoxyCompactList}\small\item\em Calcula a soma dos pesos das adjacencias entre dois vertices. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro .h com as funcoes de procura do trabalho. 
+
+\texorpdfstring{$\sim$}{\string~} \begin{DoxyAuthor}{Author}
+Diogo Machado 26042 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+22.\+05.\+2024 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+� Diogo Machado, 2023. All right reserved. 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_funcoes_l_i_b_2_funcoes_procura_8h_a1f845659a09cd72e5ef9bae625bcf88c}\label{_funcoes_l_i_b_2_funcoes_procura_8h_a1f845659a09cd72e5ef9bae625bcf88c} 
+\index{FuncoesProcura.h@{FuncoesProcura.h}!CalculoSomaEntreDoisVerticesz@{CalculoSomaEntreDoisVerticesz}}
+\index{CalculoSomaEntreDoisVerticesz@{CalculoSomaEntreDoisVerticesz}!FuncoesProcura.h@{FuncoesProcura.h}}
+\doxysubsubsection{\texorpdfstring{CalculoSomaEntreDoisVerticesz()}{CalculoSomaEntreDoisVerticesz()}}
+{\footnotesize\ttfamily int Calculo\+Soma\+Entre\+Dois\+Verticesz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{int}]{cod\+Ini,  }\item[{int}]{cod\+Dest }\end{DoxyParamCaption})}
+
+
+
+Calcula a soma dos pesos das adjacencias entre dois vertices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & -\/ grafo guardado em memoria \\
+\hline
+{\em cod\+Ini} & -\/ codigo do vertice onde se comeca a pesquisa \\
+\hline
+{\em cod\+Dest} & -\/ codigo do vertice onde se pretende chegar \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & valor da soma dos pesos \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_funcoes_l_i_b_2_funcoes_procura_8h_a2534e6eebc89e4f621c7f80963405ba9}\label{_funcoes_l_i_b_2_funcoes_procura_8h_a2534e6eebc89e4f621c7f80963405ba9} 
+\index{FuncoesProcura.h@{FuncoesProcura.h}!DepthFirstSearchRec@{DepthFirstSearchRec}}
+\index{DepthFirstSearchRec@{DepthFirstSearchRec}!FuncoesProcura.h@{FuncoesProcura.h}}
+\doxysubsubsection{\texorpdfstring{DepthFirstSearchRec()}{DepthFirstSearchRec()}}
+{\footnotesize\ttfamily bool Depth\+First\+Search\+Rec (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{aux\+Vert,  }\item[{int}]{origem,  }\item[{int}]{dest }\end{DoxyParamCaption})}
+
+
+
+Funcao Depth First Traversal que passa por todos os vertices do grafo em profundidade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em aux\+Vert} & -\/ lista de vertices do grafo \\
+\hline
+{\em origem} & -\/ onde comeca a procura \\
+\hline
+{\em dest} & -\/ destino da procura \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & retorna sucesso ou insucesso de encontrar o vertice \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_funcoes_l_i_b_2_funcoes_procura_8h_afe4ea5d8fa47c8708109bb5323ffe9f7}\label{_funcoes_l_i_b_2_funcoes_procura_8h_afe4ea5d8fa47c8708109bb5323ffe9f7} 
+\index{FuncoesProcura.h@{FuncoesProcura.h}!DepthFirstTraversal@{DepthFirstTraversal}}
+\index{DepthFirstTraversal@{DepthFirstTraversal}!FuncoesProcura.h@{FuncoesProcura.h}}
+\doxysubsubsection{\texorpdfstring{DepthFirstTraversal()}{DepthFirstTraversal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_stack}{Stack}} \texorpdfstring{$\ast$}{*} Depth\+First\+Traversal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{int}]{cod\+Ini }\end{DoxyParamCaption})}
+
+
+
+Funcao Depth First Traversal que passa por todos os vertices do grafo em profundidade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & -\/ grafo guardado em memoria \\
+\hline
+{\em cod\+Ini} & -\/ codigo do vertice onde comeca a procura \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & \doxylink{struct_stack}{Stack} com os registos onde se passou para a procura \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_funcoes_l_i_b_2_funcoes_procura_8h_ac4ca5f41c31d017399ff08d5c37f6901}\label{_funcoes_l_i_b_2_funcoes_procura_8h_ac4ca5f41c31d017399ff08d5c37f6901} 
+\index{FuncoesProcura.h@{FuncoesProcura.h}!ProcessaVertice@{ProcessaVertice}}
+\index{ProcessaVertice@{ProcessaVertice}!FuncoesProcura.h@{FuncoesProcura.h}}
+\doxysubsubsection{\texorpdfstring{ProcessaVertice()}{ProcessaVertice()}}
+{\footnotesize\ttfamily void Processa\+Vertice (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Funcao que imprime no ecra o vertice da Depth First search recursiva. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & -\/ id do vertice que se pretende imprimir \\
+\hline
+\end{DoxyParams}

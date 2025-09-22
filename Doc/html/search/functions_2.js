@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['depthfirstsearchrec_0',['depthfirstsearchrec',['../_funcoes_procura_8c.html#a2534e6eebc89e4f621c7f80963405ba9',1,'DepthFirstSearchRec(Vertice *auxVert, int origem, int dest):&#160;FuncoesProcura.c'],['../_funcoes_l_i_b_2_funcoes_procura_8h.html#a2534e6eebc89e4f621c7f80963405ba9',1,'DepthFirstSearchRec(Vertice *auxVert, int origem, int dest):&#160;FuncoesProcura.c'],['../_trabalho_01_e_d_a_01_fase_012_2_funcoes_procura_8h.html#a2534e6eebc89e4f621c7f80963405ba9',1,'DepthFirstSearchRec(Vertice *auxVert, int origem, int dest):&#160;FuncoesProcura.c']]],
+  ['depthfirsttraversal_1',['depthfirsttraversal',['../_funcoes_procura_8c.html#afe4ea5d8fa47c8708109bb5323ffe9f7',1,'DepthFirstTraversal(Grafo *grafo, int codIni):&#160;FuncoesProcura.c'],['../_funcoes_l_i_b_2_funcoes_procura_8h.html#afe4ea5d8fa47c8708109bb5323ffe9f7',1,'DepthFirstTraversal(Grafo *grafo, int codIni):&#160;FuncoesProcura.c'],['../_trabalho_01_e_d_a_01_fase_012_2_funcoes_procura_8h.html#afe4ea5d8fa47c8708109bb5323ffe9f7',1,'DepthFirstTraversal(Grafo *grafo, int codIni):&#160;FuncoesProcura.c']]]
+];

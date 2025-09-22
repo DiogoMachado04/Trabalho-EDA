@@ -1,0 +1,27 @@
+\doxysection{Gere\+Grafos.\+h}
+\hypertarget{_funcoes_l_i_b_2_gere_grafos_8h_source}{}\label{_funcoes_l_i_b_2_gere_grafos_8h_source}\index{C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/GereGrafos.h@{C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/GereGrafos.h}}
+\mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_trabalho_01_e_d_a_01_fase_012_2_grafos_8h}{Grafos.h}}"{}}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#pragma\ region\ VERTICES}}
+\DoxyCodeLine{00020\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_a8e4c760c534408d0a5df02d78719a3b9}{CriaVertice}}(\textcolor{keywordtype}{int}\ cod);}
+\DoxyCodeLine{00027\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_aee2969a641236f25a1b236ebe1c8bfd3}{InsereVertice}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ inicio,\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ novo);}
+\DoxyCodeLine{00028\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{preprocessor}{\#pragma\ region\ ADJACENCIAS}}
+\DoxyCodeLine{00037\ \mbox{\hyperlink{struct_adjacencia}{Adjacencia}}*\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_a537e77d2dd45e72c40829d89384c67fc}{CriaAdjacencia}}(\textcolor{keywordtype}{int}\ cod,\ \textcolor{keywordtype}{int}\ peso);}
+\DoxyCodeLine{00044\ \mbox{\hyperlink{struct_adjacencia}{Adjacencia}}*\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_ad6230d84a0b2fa3cb178b496812f36e4}{InsereAdjacencia}}(\mbox{\hyperlink{struct_adjacencia}{Adjacencia}}*\ inicio,\ \mbox{\hyperlink{struct_adjacencia}{Adjacencia}}*\ nova);}
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ \textcolor{preprocessor}{\#pragma\ region\ GRAFOS}}
+\DoxyCodeLine{00054\ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_aeb84a0330e3a3686f093127f82f03313}{InsereAdjacenciaVertice}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ vertice,\ \mbox{\hyperlink{struct_adjacencia}{Adjacencia}}*\ inicioAdj);}
+\DoxyCodeLine{00061\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_ab502000d0cd58ba9af9a4d5884bdc740}{CriaGrafo}}(\mbox{\hyperlink{struct_vertice}{Vertice}}*\ inicioVert,\ \textcolor{keywordtype}{int}\ numVert);}
+\DoxyCodeLine{00067\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_a6ad4d68bf90fab0670d868aa81fbe39f}{LimpaGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ grafo);}
+\DoxyCodeLine{00073\ \mbox{\hyperlink{struct_grafo}{Grafo}}*\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_a3705bdbefcf4bd465a2ce1f6a0cb821e}{LeFicheiroGrafo}}(\textcolor{keywordtype}{char}*\ filename);}
+\DoxyCodeLine{00079\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{_funcoes_l_i_b_2_gere_grafos_8h_a5b8827d21ddcc8dd699f5d30b559821b}{MostraGrafo}}(\mbox{\hyperlink{struct_grafo}{Grafo}}*\ grafo);}
+\DoxyCodeLine{00080\ \textcolor{preprocessor}{\#pragma\ endregion}}
+
+\end{DoxyCode}

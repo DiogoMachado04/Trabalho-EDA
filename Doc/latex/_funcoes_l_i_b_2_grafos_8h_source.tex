@@ -1,0 +1,31 @@
+\doxysection{Grafos.\+h}
+\hypertarget{_funcoes_l_i_b_2_grafos_8h_source}{}\label{_funcoes_l_i_b_2_grafos_8h_source}\index{C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Grafos.h@{C:/Aulas/1º ano/2º semestre/Estruturas de Dados Avançadas/Trabalho EDA Fase 2/Src/FuncoesLIB/Grafos.h}}
+\mbox{\hyperlink{_funcoes_l_i_b_2_grafos_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#pragma\ region\ ESTRUTURA\_GRAFO}}
+\DoxyCodeLine{00015\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_adjacencia}{Adjacencia}}\ \{}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_adjacencia_ab5c26930636836c8ac6d1cc47e50a2f0}{codVert}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//Codigo\ do\ vertice\ adjacente}}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_adjacencia_a82706d764c4343f2e1a75cb4c3bb0ecf}{peso}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//Peso\ da\ adjacencia}}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{struct_adjacencia_ad93964b09e0d7c18f2e1dd96fb96c438}{visitado}};}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_adjacencia}{Adjacencia}}*\ \mbox{\hyperlink{struct_adjacencia_a8194962b2d0a003ac9a9ef875d45bc45}{next}};\ \ \ \ \textcolor{comment}{//Apontador\ para\ outra\ adjacencia}}
+\DoxyCodeLine{00020\ \}\mbox{\hyperlink{_funcoes_l_i_b_2_grafos_8h_ad1a707f5a55de6e25322735fd69b8a96}{Adjacencia}};}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_vertice}{Vertice}}\ \{}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_vertice_a013a7e80cb7369e53863e0c407bf58c7}{cod}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//Codigo\ do\ vertice}}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_vertice_aa9db08902e8e36c6a22c09b88bc7fb49}{numAdj}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//Numero\ de\ adjacencias\ do\ vertice}}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{struct_vertice_a883addd1f202e3fbae518d32ee933c99}{visitado}};}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{struct_adjacencia}{Adjacencia}}*\ \mbox{\hyperlink{struct_vertice_ac1d8f30ffa9300d0d8c80d763724d26c}{adjacencias}};\ \ \ \ \textcolor{comment}{//Lista\ de\ adjacencias\ do\ vertice}}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{struct_vertice_a5787977ae07fe3a6069f73eae9cb11d6}{next}};\ \ \ \ \ \ \ \textcolor{comment}{//Apontador\ para\ o\ vertice\ seguinte}}
+\DoxyCodeLine{00028\ \}\mbox{\hyperlink{_funcoes_l_i_b_2_grafos_8h_a901d403606dfb55e6d42b899c05d3347}{Vertice}};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_grafo}{Grafo}}\ \{}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{struct_vertice}{Vertice}}*\ \mbox{\hyperlink{struct_grafo_a98f581bee44d92b3ab9493a710a69f28}{inicio}};\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//Inicio\ da\ lista\ dos\ vertices\ do\ grafo}}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_grafo_a379398ebfc77ebfac81f64f16e9d187e}{numVert}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//Numero\ de\ vertices\ do\ grafo}}
+\DoxyCodeLine{00033\ \}\mbox{\hyperlink{_funcoes_l_i_b_2_grafos_8h_adab04f64457aac52a13e71e40915bd43}{Grafo}};}
+\DoxyCodeLine{00034\ \textcolor{preprocessor}{\#pragma\ endregion}}
+
+\end{DoxyCode}

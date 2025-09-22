@@ -1,0 +1,243 @@
+\doxysection{C\+:/\+Aulas/1Âº ano/2Âº semestre/\+Estruturas de Dados AvanÃ§adas/\+Trabalho EDA Fase 2/\+Src/\+Funcoes\+LIB/\+Gere\+Grafos.c File Reference}
+\hypertarget{_gere_grafos_8c}{}\label{_gere_grafos_8c}\index{C:/Aulas/1Âº ano/2Âº semestre/Estruturas de Dados AvanÃ§adas/Trabalho EDA Fase 2/Src/FuncoesLIB/GereGrafos.c@{C:/Aulas/1Âº ano/2Âº semestre/Estruturas de Dados AvanÃ§adas/Trabalho EDA Fase 2/Src/FuncoesLIB/GereGrafos.c}}
+
+
+Ficheiro .c que contém funções de gerir grafos.  
+
+
+{\ttfamily \#include "{}Grafos.\+h"{}}\newline
+{\ttfamily \#include "{}Constantes.\+h"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$malloc.\+h$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_gere_grafos_8c_a8e4c760c534408d0a5df02d78719a3b9}{Cria\+Vertice}} (int cod)
+\begin{DoxyCompactList}\small\item\em Cria espaco em memoria para um vertice e coloca valores nas suas variáveis. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_gere_grafos_8c_aee2969a641236f25a1b236ebe1c8bfd3}{Insere\+Vertice}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}inicio, \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}novo)
+\begin{DoxyCompactList}\small\item\em Insere vertice novo na lista ligada dos vertices. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_gere_grafos_8c_aeb84a0330e3a3686f093127f82f03313}{Insere\+Adjacencia\+Vertice}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}vertice, \mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*}inicio\+Adj)
+\begin{DoxyCompactList}\small\item\em Insere lista de adjacencias no vertice correspondente. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_gere_grafos_8c_a537e77d2dd45e72c40829d89384c67fc}{Cria\+Adjacencia}} (int cod, int peso)
+\begin{DoxyCompactList}\small\item\em Cria espaco em memoria para uma adjacencia e coloca valores nas suas variaveis. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_gere_grafos_8c_ad6230d84a0b2fa3cb178b496812f36e4}{Insere\+Adjacencia}} (\mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*}inicio, \mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*}nova)
+\begin{DoxyCompactList}\small\item\em Insere adjacencia nova na lista de adjacencias. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_gere_grafos_8c_ab502000d0cd58ba9af9a4d5884bdc740}{Cria\+Grafo}} (\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}inicio\+Vert, int num\+Vert)
+\begin{DoxyCompactList}\small\item\em Cria memoria para o grafo e introduz os valores nas variaveis. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_gere_grafos_8c_a6ad4d68bf90fab0670d868aa81fbe39f}{Limpa\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}grafo)
+\begin{DoxyCompactList}\small\item\em Limpa memoria. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{_gere_grafos_8c_a3705bdbefcf4bd465a2ce1f6a0cb821e}{Le\+Ficheiro\+Grafo}} (char \texorpdfstring{$\ast$}{*}filename)
+\begin{DoxyCompactList}\small\item\em Le grafo do ficheiro CSV. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_gere_grafos_8c_a5b8827d21ddcc8dd699f5d30b559821b}{Mostra\+Grafo}} (\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}grafo)
+\begin{DoxyCompactList}\small\item\em Funcao que mostra grafo na linha de comandos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro .c que contém funções de gerir grafos. 
+
+\texorpdfstring{$\sim$}{\string~} \begin{DoxyAuthor}{Author}
+Diogo Machado 26042 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+8.\+05.\+2024 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+© Diogo Machado, 2023. All right reserved. 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_gere_grafos_8c_a537e77d2dd45e72c40829d89384c67fc}\label{_gere_grafos_8c_a537e77d2dd45e72c40829d89384c67fc} 
+\index{GereGrafos.c@{GereGrafos.c}!CriaAdjacencia@{CriaAdjacencia}}
+\index{CriaAdjacencia@{CriaAdjacencia}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{CriaAdjacencia()}{CriaAdjacencia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*} Cria\+Adjacencia (\begin{DoxyParamCaption}\item[{int}]{cod,  }\item[{int}]{peso }\end{DoxyParamCaption})}
+
+
+
+Cria espaco em memoria para uma adjacencia e coloca valores nas suas variaveis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cod} & -\/ numero de codigo do vertice adjacente \\
+\hline
+{\em peso} & -\/ peso da adjacencia \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & adjacencia criada \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_gere_grafos_8c_ab502000d0cd58ba9af9a4d5884bdc740}\label{_gere_grafos_8c_ab502000d0cd58ba9af9a4d5884bdc740} 
+\index{GereGrafos.c@{GereGrafos.c}!CriaGrafo@{CriaGrafo}}
+\index{CriaGrafo@{CriaGrafo}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{CriaGrafo()}{CriaGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Cria\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{inicio\+Vert,  }\item[{int}]{num\+Vert }\end{DoxyParamCaption})}
+
+
+
+Cria memoria para o grafo e introduz os valores nas variaveis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio\+Vert} & -\/ inicio da lista dos vertices \\
+\hline
+{\em num\+Vert} & -\/ numero de vertices do grafo \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & grafo com valores nas variaveis \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_gere_grafos_8c_a8e4c760c534408d0a5df02d78719a3b9}\label{_gere_grafos_8c_a8e4c760c534408d0a5df02d78719a3b9} 
+\index{GereGrafos.c@{GereGrafos.c}!CriaVertice@{CriaVertice}}
+\index{CriaVertice@{CriaVertice}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{CriaVertice()}{CriaVertice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Cria\+Vertice (\begin{DoxyParamCaption}\item[{int}]{cod }\end{DoxyParamCaption})}
+
+
+
+Cria espaco em memoria para um vertice e coloca valores nas suas variáveis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cod} & -\/ numero de codigo do vertice \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & vertice criado \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_gere_grafos_8c_ad6230d84a0b2fa3cb178b496812f36e4}\label{_gere_grafos_8c_ad6230d84a0b2fa3cb178b496812f36e4} 
+\index{GereGrafos.c@{GereGrafos.c}!InsereAdjacencia@{InsereAdjacencia}}
+\index{InsereAdjacencia@{InsereAdjacencia}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{InsereAdjacencia()}{InsereAdjacencia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*} Insere\+Adjacencia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{\mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*}}]{nova }\end{DoxyParamCaption})}
+
+
+
+Insere adjacencia nova na lista de adjacencias. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & -\/ inicio da lista de adjacencias \\
+\hline
+{\em nova} & -\/ nova adjacencia que se pretende colocar na lista \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & lista de adjacencias \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_gere_grafos_8c_aeb84a0330e3a3686f093127f82f03313}\label{_gere_grafos_8c_aeb84a0330e3a3686f093127f82f03313} 
+\index{GereGrafos.c@{GereGrafos.c}!InsereAdjacenciaVertice@{InsereAdjacenciaVertice}}
+\index{InsereAdjacenciaVertice@{InsereAdjacenciaVertice}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{InsereAdjacenciaVertice()}{InsereAdjacenciaVertice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Insere\+Adjacencia\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{vertice,  }\item[{\mbox{\hyperlink{struct_adjacencia}{Adjacencia}} \texorpdfstring{$\ast$}{*}}]{inicio\+Adj }\end{DoxyParamCaption})}
+
+
+
+Insere lista de adjacencias no vertice correspondente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertice} & -\/ vertice do grafo que pretendemos colocar as adjacencias \\
+\hline
+{\em inicio\+Adj} & -\/ lista de adjacentes do vertice \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & vertice com as adjacencias colocadas \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_gere_grafos_8c_aee2969a641236f25a1b236ebe1c8bfd3}\label{_gere_grafos_8c_aee2969a641236f25a1b236ebe1c8bfd3} 
+\index{GereGrafos.c@{GereGrafos.c}!InsereVertice@{InsereVertice}}
+\index{InsereVertice@{InsereVertice}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{InsereVertice()}{InsereVertice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*} Insere\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{inicio,  }\item[{\mbox{\hyperlink{struct_vertice}{Vertice}} \texorpdfstring{$\ast$}{*}}]{novo }\end{DoxyParamCaption})}
+
+
+
+Insere vertice novo na lista ligada dos vertices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inicio} & -\/ inicio da lista dos vertices \\
+\hline
+{\em novo} & -\/ vertice novo que se pretende introduzir na lista \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & inicio da lista de vertices \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_gere_grafos_8c_a3705bdbefcf4bd465a2ce1f6a0cb821e}\label{_gere_grafos_8c_a3705bdbefcf4bd465a2ce1f6a0cb821e} 
+\index{GereGrafos.c@{GereGrafos.c}!LeFicheiroGrafo@{LeFicheiroGrafo}}
+\index{LeFicheiroGrafo@{LeFicheiroGrafo}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{LeFicheiroGrafo()}{LeFicheiroGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*} Le\+Ficheiro\+Grafo (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{filename }\end{DoxyParamCaption})}
+
+
+
+Le grafo do ficheiro CSV. 
+
+Le ficheiro CSV com as informacoes do grafo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & -\/ nome do ficheiro \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & grafo \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_gere_grafos_8c_a6ad4d68bf90fab0670d868aa81fbe39f}\label{_gere_grafos_8c_a6ad4d68bf90fab0670d868aa81fbe39f} 
+\index{GereGrafos.c@{GereGrafos.c}!LimpaGrafo@{LimpaGrafo}}
+\index{LimpaGrafo@{LimpaGrafo}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{LimpaGrafo()}{LimpaGrafo()}}
+{\footnotesize\ttfamily int Limpa\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo }\end{DoxyParamCaption})}
+
+
+
+Limpa memoria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & -\/ grafo guardado em memoria \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & Resultado da funcao \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{_gere_grafos_8c_a5b8827d21ddcc8dd699f5d30b559821b}\label{_gere_grafos_8c_a5b8827d21ddcc8dd699f5d30b559821b} 
+\index{GereGrafos.c@{GereGrafos.c}!MostraGrafo@{MostraGrafo}}
+\index{MostraGrafo@{MostraGrafo}!GereGrafos.c@{GereGrafos.c}}
+\doxysubsubsection{\texorpdfstring{MostraGrafo()}{MostraGrafo()}}
+{\footnotesize\ttfamily int Mostra\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_grafo}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo }\end{DoxyParamCaption})}
+
+
+
+Funcao que mostra grafo na linha de comandos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & -\/ grafo guardado em memoria \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em -\/} & Resultado da funcao \\
+\hline
+\end{DoxyRetVals}
